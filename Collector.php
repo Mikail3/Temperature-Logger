@@ -2,7 +2,7 @@
 $IP = $_SERVER['REMOTE_ADDR'];
 $servername = "localhost";
 $username = "pxleai1q_11800892";
-$password = "xMJZXJvNz967";
+$password = "x";
 $dbname = "pxleai1q_11800892";
 
 // Create connection
