@@ -32,7 +32,7 @@
         var line1 =<?php
             $dbhost="localhost"; 
             $dbuser="pxleai1q_11800892"; 
-            $dbpass="xMJZXJvNz967"; 
+            $dbpass=""; 
             $dbname="pxleai1q_11800892";
 
   $dblink = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
