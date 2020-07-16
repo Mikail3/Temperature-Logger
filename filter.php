@@ -1,6 +1,6 @@
 <?php 
 	if(isset($_POST["from_TimeStamp"], $_POST["to_TimeStamp"])) {
-		$mysqli = mysqli_connect("localhost","pxleai1q_11800892","xMJZXJvNz967","pxleai1q_11800892");
+		$mysqli = mysqli_connect("localhost","pxleai1q_11800892","password","pxleai1q_11800892");
 		$output = '';
 		$query = " SELECT * FROM SenseMyVal WHERE TimeStamp BETWEEN '".$_POST["from_TimeStamp"]."' AND '".$_POST["to_TimeStamp"]."' ORDER BY Sensor_ID desc ";
 		$result = mysqli_query($mysqli, $query);
