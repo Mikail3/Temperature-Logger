@@ -1,6 +1,6 @@
 <?php 
 
-$connect = mysqli_connect("localhost","pxleai1q_11800892","xMJZXJvNz967","pxleai1q_11800892");
+$connect = mysqli_connect("localhost","pxleai1q_11800892","passwordXXX","pxleai1q_11800892");
 $sql = "SELECT * FROM DataSensor LEFT JOIN Sensor ON DataSensor.Sensor_ID = Sensor.ID";
 $result = mysqli_query($connect, $sql);
 
