@@ -2,7 +2,7 @@
 
 define('DB_SERVER', 'localhost');
 define('DB_USER', 'pxleai1q_11800892');
-define('DB_PASSWORD', 'xMJZXJvNz967');
+define('DB_PASSWORD', 'password');
 define('DB_NAME', 'pxleai1q_11800892');
  
 $conn = new PDO("mysql:host=".DB_SERVER.";dbname=".DB_NAME, DB_USER, DB_PASSWORD);
